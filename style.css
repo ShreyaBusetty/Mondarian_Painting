@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+.container{
+    display: flex;
+    justify-content: center;
+    border-bottom-style:dashed ;
+    margin-bottom: 20px;
+    font-family: 'Lemon', serif;
+    font-size: 1rem;
+}
+
+.custom-div {
+    display: grid;
+    /*justify-content: center;
+    align-items: center;*/
+    width: 850px;
+    height: 450px;
+    border: 10px solid #000; 
+    grid-template-rows: repeat(8 ,1fr);
+    grid-template-columns: repeat(5,1fr);
+    margin: 0 auto; 
+}
+.row-2{
+    grid-row: span 2;
+}
+.col-2{
+    grid-column: span 2;
+}
+.row-3{
+    grid-column: span 3;
+}
+.row-4{
+    grid-row: span 4;
+}
+.col-3{
+    grid-column: span 3;
+}
+.no1{
+   background-color:#4682B4;
+   grid-column-start: 1;
+   grid-column-end: 3;
+   border-bottom:5px solid #000;
+   border-right: 5px solid #000;
+}
+.no2{  
+    border-bottom: 5px solid #000;
+    border-right: 5px solid #000;
+}
+.no3{
+    background-color: #F08080;
+}
+.no4{
+    border-right: 5px solid #000;
+}
+.no5{
+}
+.no6{
+    background-color: #E9967A;
+    border-left: 5px solid #000;
+    border-bottom: 5px solid #000;
+    border-right: 5px solid #000;
+}
+.no7{
+   border-bottom: 5px solid #000;
+   border-right: 5px solid #000;
+}
+.no8{
+    background-color: #F08080;
+   border-bottom: 5px solid #000;
+}
+.no9{
+    background-color:#FDF5E6;
+   border-left: 5px solid #000;
+   border-right: 5px solid #000;
+}
+.no10{
+    border-right: 5px solid #000;
+}
+.no11{
+    background-color: #B0C4DE;
+    border-top: 5px solid #000;
+    border-right: 5px solid #000;
+}
+.no12{
+    border-top: 5px solid #000;
+}
+.no13{
+    background-color:#FFA07A ;
+   border-top: 5px solid #000;
+   border-right: 5px solid #000;
+}
+.no14{
+   
+   border-top: 5px solid #000;
+   border-right: 5px solid #000;
+}
+.no15{
+    background-color: #20B2AA;
+    border-top: 5px solid #000;
+}
